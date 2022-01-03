@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-02T15:34:20 IST" name="Default suite" finished-at="2022-01-02T15:34:23 IST" duration-ms="3182">
+    <groups>
+    </groups>
+    <test started-at="2022-01-02T15:34:20 IST" name="Default test" finished-at="2022-01-02T15:34:23 IST" duration-ms="3182">
+      <class name="DynamicJson">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DynamicJson@e7edb54]" started-at="2022-01-02T15:34:20 IST" name="addBook" data-provider="MapsData" finished-at="2022-01-02T15:34:22 IST" duration-ms="2161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone_number1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DynamicJson@e7edb54]" started-at="2022-01-02T15:34:22 IST" name="addBook" data-provider="MapsData" finished-at="2022-01-02T15:34:23 IST" duration-ms="465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone_number2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DynamicJson@e7edb54]" started-at="2022-01-02T15:34:23 IST" name="addBook" data-provider="MapsData" finished-at="2022-01-02T15:34:23 IST" duration-ms="521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone_number3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[address3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- DynamicJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
