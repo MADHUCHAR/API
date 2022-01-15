@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\madhu\AppData\Local\Temp\testng-eclipse-288682504\testng-customsuite.xml</span>
+                    <span>C:\Users\madhu\AppData\Local\Temp\testng-eclipse-524569529\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="DynamicJson" class="method navigator-link" hash-for-method="addBook(phone_number1, address1)">addBook(phone_number1, address1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="DynamicJson" class="method navigator-link" hash-for-method="addBook(phone_number2, address2)">addBook(phone_number2, address2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="DynamicJson" class="method navigator-link" hash-for-method="addBook(phone_number3, address3)">addBook(phone_number3, address3)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="DynamicJson" class="method navigator-link" hash-for-method="addBook1">addBook1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -137,26 +127,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addBook(phone_number1, address1)">
-                  </a> <!-- addBook(phone_number1, address1) -->
-                  <span class="method-name">addBook</span>
-                  <span class="parameters">(phone_number1, address1)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addBook(phone_number2, address2)">
-                  </a> <!-- addBook(phone_number2, address2) -->
-                  <span class="method-name">addBook</span>
-                  <span class="parameters">(phone_number2, address2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addBook(phone_number3, address3)">
-                  </a> <!-- addBook(phone_number3, address3) -->
-                  <span class="method-name">addBook</span>
-                  <span class="parameters">(phone_number3, address3)</span>
+                  <a name="addBook1">
+                  </a> <!-- addBook1 -->
+                  <span class="method-name">addBook1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\madhu\AppData\Local\Temp\testng-eclipse-288682504\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\madhu\AppData\Local\Temp\testng-eclipse-524569529\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -173,7 +146,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;DynamicJson&quot;/&gt;
+      &lt;class name=&quot;DynamicJson&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addBook1&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- DynamicJson --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -213,24 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addBook')
+data.setCell(0, 1, 'addBook1')
 data.setCell(0, 2, 'DynamicJson')
-data.setCell(0, 3, 2161);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addBook')
-data.setCell(1, 2, 'DynamicJson')
-data.setCell(1, 3, 521);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addBook')
-data.setCell(2, 2, 'DynamicJson')
-data.setCell(2, 3, 465);
+data.setCell(0, 3, 2189);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -245,9 +214,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">DynamicJson</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addBook</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -258,16 +234,8 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">DynamicJson</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">addBook(phone_number1, address1)</span>
+                <span class="method-name">addBook1</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">addBook(phone_number2, address2)</span>
-                <span class="method-start">2164 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">addBook(phone_number3, address3)</span>
-                <span class="method-start">2630 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
